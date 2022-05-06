@@ -1,7 +1,7 @@
 // Banking app database
 create schema Bank;
 
-// Create the table under the banking schema
+// Create the tables under the banking schema
 
 create table user(
 	first_name varchar(20) not null,
@@ -24,16 +24,16 @@ alter table account
 add constraint fk_emailID
 foreign key (email) references user(email);
 
-insert into users (first_name, last_name, email, username, password) values ('Jack', 'Red', 'jackr@red.com', 'jred47', '567gth789');
-insert into users (first_name, last_name, email, username, password) values ('Steve', 'Blue', 'stevewuz@here.com', 'stevewuzhere1', 'jkl678kb2424');
-insert into users (first_name, last_name, email, username, password) values ('Pierce', 'Green', 'buckets@tdameritrade.com', 'paulp34', 'paulypfrom3');
-insert into users (first_name, last_name, email, username, password) values ('Gabriella', 'Pinkett', 'gabpink@skynet.com', 'gabpink77', 'xxx012xxx');
-insert into users (first_name, last_name, email, username, password) values ('Blake', 'Greene', 'bgreene@savethewhales.org', 'bgreene35', 'samplePSSWRD24');
-insert into users (first_name, last_name, email, username, password) values ('Zachary', 'Redd', 'izeeredd@smells.org', 'zachredd5', 'sampletrample22');
-insert into users (first_name, last_name, email, username, password) values ('Shannon', 'Bleu', 'shannonbleu@admin.ch', 'shannon24', 'dolaundry24');
-insert into users (first_name, last_name, email, username, password) values ('Josi', 'Brown', 'jbrown34@tdameritrade.com', 'jbrown67', 'downtownbrown67');
-insert into users (first_name, last_name, email, username, password) values ('Destiny', 'Emeralt', 'demeralt@w3.org', 'destiny1', 'demeralt1');
-insert into users (first_name, last_name, email, username, password) values ('James', 'Amarillo', 'jamjam34@gmail.com', 'jamjam34', 'JamJamFamFam34');
+insert into user (first_name, last_name, email, username, password) values ('Jack', 'Red', 'jackr@red.com', 'jred47', '567gth789');
+insert into user (first_name, last_name, email, username, password) values ('Steve', 'Blue', 'stevewuz@here.com', 'stevewuzhere1', 'jkl678kb2424');
+insert into user (first_name, last_name, email, username, password) values ('Pierce', 'Green', 'buckets@tdameritrade.com', 'paulp34', 'paulypfrom3');
+insert into user (first_name, last_name, email, username, password) values ('Gabriella', 'Pinkett', 'gabpink@skynet.com', 'gabpink77', 'xxx012xxx');
+insert into user (first_name, last_name, email, username, password) values ('Blake', 'Greene', 'bgreene@savethewhales.org', 'bgreene35', 'samplePSSWRD24');
+insert into user (first_name, last_name, email, username, password) values ('Zachary', 'Redd', 'izeeredd@smells.org', 'zachredd5', 'sampletrample22');
+insert into user (first_name, last_name, email, username, password) values ('Shannon', 'Bleu', 'shannonbleu@admin.ch', 'shannon24', 'dolaundry24');
+insert into user (first_name, last_name, email, username, password) values ('Josi', 'Brown', 'jbrown34@tdameritrade.com', 'jbrown67', 'downtownbrown67');
+insert into user (first_name, last_name, email, username, password) values ('Destiny', 'Emeralt', 'demeralt@w3.org', 'destiny1', 'demeralt1');
+insert into user (first_name, last_name, email, username, password) values ('James', 'Amarillo', 'jamjam34@gmail.com', 'jamjam34', 'JamJamFamFam34');
 
 insert into account (default,'jred47','567gth789','1200', 'jackr@red.com');
 insert into account (default,'stevewuzhere1', 'jk1678kb24','2550', 'stevewuz@here.com');
@@ -47,9 +47,5 @@ insert into account (default,'destiny1','demeralt1','5460','demeralt@w3.org');
 insert into account (default,'jamjam34','JamJamFamFam34','1200', 'jamjam34@gmail.com');
 
 // display data in table
-select * from users;
+select * from user;
 select * from account;
-
-//cascade statements
-drop table if exists user cascade;
-drop table if exists account cascade;
