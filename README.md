@@ -1,7 +1,8 @@
 # ryan_doherty_p0
-Banking App Project
 
-// User Stories To Get To MVP (Minimum Viable Product)
+<b>Banking App Project</b><br>
+
+// <b>User Stories To Get To MVP (Minimum Viable Product)</b><br>
 
 <b>AS A USER I CAN</b><br>
 // Register a new user account with the system (must be secured with a password)<br>
