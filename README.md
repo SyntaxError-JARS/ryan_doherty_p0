@@ -4,12 +4,12 @@ Banking App Project
 // User Stories To Get To MVP (Minimum Viable Product)
 
 <b>AS A USER I CAN</b><br>
-// #register a new user account with the system (must be secured with a password)<br>
-// #login with my existing credentials<br>
-// #create at least one account<br>
-// #deposit funds into an account (use doubles, not ints)<br>
-// #withdraw funds from an account (no overdrafting!)<br>
-// #view the balance of my account(s) (all balance displays must be in proper currency format) <br>
+// Register a new user account with the system (must be secured with a password)<br>
+// Login with my existing credentials<br>
+// Create at least one account<br>
+// Deposit funds into an account (use doubles, not ints)<br>
+// Withdraw funds from an account (no overdrafting!)<br>
+// View the balance of my account(s) (all balance displays must be in proper currency format) <br>
 
 <b>MINIMUM FEATURES</b><br>
 Use of custom data structures (do not use java.util Collection types!).<br>
@@ -22,7 +22,7 @@ Database is 3rd Normal Form Compliant.<br>
 Referential integrity (e.g. if a class is removed from the catalog, no students should be registered for it).<br>
 Logging messages and exceptions to a file using a custom logger.<br>
 Generation of basic design documents (e.g. relational diagram, class diagram, flows, etc.).<br>
-A basic single html/css/js page for logging in/a welcome page.<br>
+A welcome page.<br>
 
 <b>TECH STACK</b><br>
 Java 8<br>
