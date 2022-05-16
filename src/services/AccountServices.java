@@ -2,9 +2,6 @@ package com.revature.Ryan_Doherty_p0.services;
 
 
 import com.revature.Ryan_Doherty_p0.daos.AccountDao;
-import com.revature.Ryan_Doherty_p0.menus.CreateAccountMenu;
-import com.revature.Ryan_Doherty_p0.menus.WelcomeMenu;
-import com.revature.Ryan_Doherty_p0.models.Account;
 import com.revature.Ryan_Doherty_p0.util.AppState;
 
 import java.util.Scanner;
@@ -14,8 +11,6 @@ public class AccountServices {
 
     private AccountDao accountDao = new AccountDao();
     private Account account = new Account();
-
-
 
     public boolean validateUserInput(Account newUser) {
         System.out.println("Validating User: " + newUser);
