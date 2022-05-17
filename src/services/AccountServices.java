@@ -3,7 +3,7 @@ package com.revature.Ryan_Doherty_p0.services;
 
 import com.revature.Ryan_Doherty_p0.daos.AccountDao;
 import com.revature.Ryan_Doherty_p0.util.AppState;
-import com.revature.banking.util.logging.Logger;
+import com.revature.Ryan_Doherty_p0.util.logging.Logger;
 
 import java.util.Scanner;
 
