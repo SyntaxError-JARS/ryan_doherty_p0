@@ -27,7 +27,7 @@ alter table account
 add constraint  fk_emaila 
 foreign key(emaila) references users(email)
 on delete cascade;
- // 
+ 
 insert into users values ('Jack', 'Red', 'jackr@red.com', 'jred47', '567gth789');
 insert into users values ('Steve', 'Blue', 'stevewuz@here.com', 'stevewuzhere1', 'jkl678kb2424');
 insert into users values ('Pierce', 'Green', 'buckets@tdameritrade.com', 'paulp34', 'paulypfrom3');
